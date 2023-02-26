@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+}
+/*for alignment we use justify content*/
+.justify-content-space-between{
+    justify-content:space-between
+}
+.bg-navbar{
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgb(0 0 0 /20%);
+}
+.plr-10/*class*/{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ptb-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pl-5{
+    padding: 5px;
+}
+.nav-links{
+    cursor: pointer;
+    
+}
+.nav-links:hover{
+    color: rosybrown;
+}
+.link{
+   text-decoration: none;
+   color: plum;
+}
+.link:hover{
+    color: rgb(208, 164, 208);
+    border-bottom: 4.5px solid #fd6212;
+    padding-bottom: 17px;
+}
